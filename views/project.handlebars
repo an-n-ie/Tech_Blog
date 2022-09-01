@@ -1,14 +1,28 @@
-<div class="text-center">
+<div class="project-background text-center">
   <h2>{{name}}</h2>
-  <p>{{{get_emoji}}}</p>
   <p>{{description}}</p>
   <p>Created by {{user.name}} on {{format_date date_created}}</p>
   <p>
-    <span for="img" aria-label="money">💲</span>
-    <span class="dollar-amount">{{format_amount needed_funding}}</span>
-    needed
+    <span class="dollar-amount">{{needed_funding}}</span>
+    <span for="img" aria-label="money">⭐</span>
   </p>
   <p>
-    <button class="btn btn-primary">Fund this Project!</button>
+  <form class="form new-comment-form">
+    <div class="comment-group">
+      {{!-- <h5>Leave a Comment</h5> --}}
+      <textarea class="comment-form-input" id="comment-desc" name="comment-desc"></textarea>
+    </div>
+    <div class="comment-group">
+      <button type="submit" class="btn btn-primary">Submit Comment</button>
+    </div>
+  </form>
+  <p></p>
+{{#each comments as |comment|}}
+<p><span role="img"><img class="ohio" src="/assets/comment-icon.jpeg"/></span> {{comment.comment_text}} ({{user.name}} on {{format_date date_created}}) </p>
+{{/each}}
   </p>
 </div>
+
+
+
+<script src="/js/comment.js"></script>
