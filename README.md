@@ -8,7 +8,7 @@ A blog site where developers can publish their blog posts and comment on other d
 
 The following image shows the application's appearance and functionality:
 
-![Picture](./Assets/Weather-Dashboard.png)
+![Blog](./Assets/Weather-Dashboard.png)
 
 Website: 
 
@@ -21,5 +21,4 @@ Website:
 GitHub: https://github.com/an-n-ie
 
 Email: anniehoang.anh@gmail.com
-# sds
-# Tech_Blog
+
