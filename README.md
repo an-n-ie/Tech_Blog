@@ -6,14 +6,11 @@ A blog site where users can post about the latest technology and comment on othe
 
 ## Usage
 
+Website: https://tech-blog-14ah.herokuapp.com/
+
 The following image shows part of the application's appearance and functionality:
 
 ![Blog](./public/assets/post.png)
-
-Website: https://tech-blog-14ah.herokuapp.com/
-
-## Credits
-
 
 
 ## Contact
