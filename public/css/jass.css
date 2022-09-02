@@ -1009,13 +1009,13 @@ a:hover {
 }
 
 .btn.btn-primary {
-  background-color: #BB0000;
+  background-color: #ad1fd4;
   color: #d9e9e8;
 
 }
 
 .btn.btn-primary:hover {
-  background-color: hsl(0, 100%, 19%);
+  background-color: hsl(0, 7%, 55%);
   border: solid white 1px;
 }
 
@@ -1025,7 +1025,7 @@ a:hover {
 }
 
 .btn.btn-danger:hover {
-  background-color: hsl(0, 100%, 19%);
+  background-color: hsl(0, 9%, 37%);
 }
 
 .btn.btn-info {
@@ -1043,7 +1043,7 @@ a:hover {
 }
 
 .btn.btn-light:hover {
-  background-color: #84b8b4;
+  background-color: #7a8180;
 }
 
 .btn.btn-dark {
