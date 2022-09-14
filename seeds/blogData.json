@@ -1,0 +1,12 @@
+[
+  {
+    "name": "iPhone",
+    "description": "It's an ok phone.",
+    "rating": 3
+  },
+  {
+    "name": "Bose headphones",
+    "description": "Awesome sound quality!",
+    "rating": 5
+  }
+]

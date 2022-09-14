@@ -23,7 +23,7 @@ Blog.init(
       allowNull: false,
       defaultValue: DataTypes.NOW,
     },
-    needed_funding: {
+    rating: {
       type: DataTypes.INTEGER,
       allowNull: false,
     },
