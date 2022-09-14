@@ -2,7 +2,7 @@
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-header, .project:not(:last-child) {
+header, .blog:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 
@@ -70,7 +70,7 @@ body{
 } */
 
 /*
-.project-background{
+.blog-background{
   background-image: url(/assets/city_background_red.jpg);
   background-size: cover;
 }
